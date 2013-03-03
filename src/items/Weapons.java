@@ -25,11 +25,9 @@ public class Weapons{
 	public Weapons staff(int choice)
 	{
 		String staff[][] = {
-				{"Staff","a blade forged in the distant land of Asia"},
-				{"Longsword","A mighty durable blade forged for endurance"},
-				{"Swiss Army Knife", "A mystery knife with all types of surprises"},
-				{"Scimitar", "A sword with a curved blade"},
-				{"Short Sword", "Durable sword with a short blade"}
+				{"Staff","a weapon for ordinary wizards"},
+				{"Dark Staff", "A staff used for dark magic"},
+				{"Ominious staff", "A staff that's a little weird."}
 				};
 		Weapons weapon = new Weapons(staff[choice][0],staff[choice][1]);
 		return weapon;
